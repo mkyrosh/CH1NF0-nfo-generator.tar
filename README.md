@@ -228,35 +228,7 @@ L'application va :
 
 ---
 
-## 📋 Structure de la présentation BBCode
 
-La présentation est générée au format BBCode compatible avec les trackers francophones :
-
-```
-[h1]Titre du Film[/h1]
-[h2](Année)[/h2]
-[img]poster TMDB[/img]
-[img]bannière[/img]
-Pays, Genres, Date de sortie, Durée
-Réalisateur(s), Acteur(s), Note TMDB, lien IMDB
-
-[img]bannière synopsis[/img]
-Synopsis complet en français
-
-[img]bannière vidéo[/img]
-Source, Résolution, Codec Vidéo, Débit vidéo
-
-[img]bannière audio[/img]
-Tableau : # | Canaux | Codec | Bitrate
-
-[img]bannière sous-titres[/img]
-
-[img]bannière release[/img]
-Release name, Team, Nombre de fichiers, Poids total
-Crédit bannières
-```
-
----
 
 ## 🔑 Obtenir une clé API TMDB (gratuit)
 
@@ -319,10 +291,9 @@ Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou un
 
 Idées d'améliorations futures :
 - Support du drag & drop natif (tkdnd)
-- Personnalisation des bannières BBCode via l'interface
 - Templates de présentation multiples selon le tracker
 - Mode batch (traitement de plusieurs releases à la suite)
-- Prévisualisation du NFO et du BBCode dans l'application
+- Prévisualisation du NFO 
 - Intégration directe avec l'API des trackers pour upload automatique
 
 ---
@@ -330,5 +301,3 @@ Idées d'améliorations futures :
 ## 📜 Licence
 
 Libre d'utilisation et de modification.
-
-Fait avec ❤️ par Corridor.
